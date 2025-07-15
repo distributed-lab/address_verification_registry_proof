@@ -1,0 +1,15 @@
+[package]
+name = "address_verification_registry_guest"
+version = "0.1.0"
+edition = "2021"
+
+[workspace]
+
+[dependencies]
+bs58 = "0.5.1"
+hex = "0.4.3"
+k256 = "0.13.4"
+ripemd = "0.1.3"
+risc0-zkvm = { version = "^2.2.0", default-features = false, features = ['std'] }
+serde = { version = "1.0.219", features = ["derive"] }
+sha2 = "0.10.9"
